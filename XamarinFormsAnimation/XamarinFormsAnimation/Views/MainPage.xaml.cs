@@ -11,6 +11,17 @@ namespace XamarinFormsAnimation.Views
         public MainPage()
         {
             InitializeComponent();
+
+            var itemsPage = new ItemsPage() { Title = "Items Page" };
+            var about1 = new ItemsPage() { Title = "About 1 Page" };
+            var about2 = new ItemsPage() { Title = "about 2 Page" };
+            this.Children.Add(new NavigationPage(itemsPage) { Title = "111" });
+            this.Children.Add(new NavigationPage(about1) { Title = "222" });
+            this.Children.Add(new NavigationPage(about2) { Title = "333" });
+
+            //NavigationPage.SetTitleIcon(itemsPage, "xamarin_logo.png");
+            //NavigationPage.SetTitleIcon(about1, "xamarin_logo.png");
+            //NavigationPage.SetTitleIcon(about2, "xamarin_logo.png");
         }
     }
 }
