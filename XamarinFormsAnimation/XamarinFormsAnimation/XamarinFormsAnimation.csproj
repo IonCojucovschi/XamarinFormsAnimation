@@ -12,4 +12,21 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />  
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\NavigationItemView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Templates\">
+      <DependentUpon>Templates</DependentUpon>
+    </Folder>
+    <Folder Include="Templates\Rule\">
+      <DependentUpon>Rule</DependentUpon>
+    </Folder>
+    <Folder Include="Templates\Content\">
+      <DependentUpon>Content</DependentUpon>
+    </Folder>
+    <Folder Include="Templates\Views\">
+      <DependentUpon>Views</DependentUpon>
+    </Folder>
+  </ItemGroup>
 </Project>

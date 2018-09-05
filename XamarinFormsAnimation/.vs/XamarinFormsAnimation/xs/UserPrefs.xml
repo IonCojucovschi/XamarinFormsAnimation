@@ -1,9 +1,34 @@
 ﻿<Properties StartupConfiguration="{3A19BF88-CBAA-4474-97B8-D819F4817875}|Default">
-  <MonoDevelop.Ide.ItemProperties.XamarinFormsAnimation.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsAnimation/Views/MainPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsAnimation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3FF0FA9F-427C-473D-8E05-1C4173EF1A31" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinFormsAnimation/Templates/Content/CustomTabContent.cs">
     <Files>
-      <File FileName="XamarinFormsAnimation/Views/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="XamarinFormsAnimation/Views/MainPage.xaml" Line="37" Column="14" />
+      <File FileName="XamarinFormsAnimation/Views/MainPage.xaml.cs" Line="24" Column="2" />
+      <File FileName="XamarinFormsAnimation/Views/MainPage.xaml" Line="11" Column="14" />
+      <File FileName="XamarinFormsAnimation/Views/ItemDetailPage.xaml.cs" Line="16" Column="40" />
+      <File FileName="XamarinFormsAnimation/ViewModels/BaseViewModel.cs" Line="44" Column="10" />
+      <File FileName="XamarinFormsAnimation/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
+      <File FileName="XamarinFormsAnimation/Services/MockDataStore.cs" Line="1" Column="1" />
+      <File FileName="XamarinFormsAnimation.Android/MainActivity.cs" Line="21" Column="37" />
+      <File FileName="XamarinFormsAnimation/Views/ItemsPage.xaml" Line="54" Column="22" />
+      <File FileName="XamarinFormsAnimation/Views/ItemsPage.xaml.cs" Line="25" Column="55" />
+      <File FileName="XamarinFormsAnimation/ViewModels/ItemsViewModel.cs" Line="18" Column="16" />
+      <File FileName="XamarinFormsAnimation.iOS/Main.cs" Line="17" Column="47" />
+      <File FileName="XamarinFormsAnimation/App.xaml.cs" Line="17" Column="31" />
+      <File FileName="XamarinFormsAnimation/App.xaml" Line="22" Column="15" />
+      <File FileName="XamarinFormsAnimation/Views/NavigationItemView.cs" Line="1" Column="1" />
+      <File FileName="XamarinFormsAnimation/Views/NavigationPageItemView.xaml" Line="8" Column="1" />
+      <File FileName="XamarinFormsAnimation/Views/NavigationPageItemView.xaml.cs" Line="12" Column="1" />
+      <File FileName="XamarinFormsAnimation.Android/Resources/values/styles.xml" Line="27" Column="39" />
+      <File FileName="XamarinFormsAnimation.Android/Resources/values/colors.xml" Line="1" Column="1" />
+      <File FileName="XamarinFormsAnimation/Views/AboutPage.xaml" Line="116" Column="15" />
+      <File FileName="XamarinFormsAnimation/Views/AboutPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="XamarinFormsAnimation/Templates/Rule/ICustomTabContent.cs" Line="8" Column="41" />
+      <File FileName="XamarinFormsAnimation/Templates/Content/CustomTabContent.cs" Line="12" Column="12" />
+      <File FileName="XamarinFormsAnimation/Templates/Content/TitleTabBase.cs" Line="6" Column="42" />
+      <File FileName="XamarinFormsAnimation/Templates/Content/BodyTabBase.cs" Line="6" Column="25" />
+      <File FileName="XamarinFormsAnimation/Templates/Views/CustomTabView.xaml" Line="17" Column="14" />
+      <File FileName="XamarinFormsAnimation/Templates/Views/CustomTabView.xaml.cs" Line="9" Column="26" />
+      <File FileName="XamarinFormsAnimation/Templates/Views/BaseTemplate.cs" Line="7" Column="76" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,7 +36,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamarinFormsAnimation FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.XamarinFormsAnimation.Android PreferredExecutionTarget="Android.192.168.56.101:5555" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.XamarinFormsAnimation.Android PreferredExecutionTarget="Android.192.168.56.101:5555" />
 </Properties>

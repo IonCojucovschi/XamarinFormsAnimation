@@ -2,6 +2,7 @@
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsAnimation.ViewModels;
 
 namespace XamarinFormsAnimation.Views
 {
@@ -11,6 +12,7 @@ namespace XamarinFormsAnimation.Views
         public AboutPage()
         {
             InitializeComponent();
+            this.BindingContext = new AboutViewModel();
         }
     }
 }

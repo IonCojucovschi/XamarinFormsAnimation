@@ -19,9 +19,6 @@ namespace XamarinFormsAnimation.Views
             this.Children.Add(new NavigationPage(about1) { Title = "222" });
             this.Children.Add(new NavigationPage(about2) { Title = "333" });
 
-            //NavigationPage.SetTitleIcon(itemsPage, "xamarin_logo.png");
-            //NavigationPage.SetTitleIcon(about1, "xamarin_logo.png");
-            //NavigationPage.SetTitleIcon(about2, "xamarin_logo.png");
         }
     }
 }
